@@ -1,0 +1,119 @@
+body {
+  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* banner section starts */
+.banner-image {
+  border-radius: 16px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 270px;
+  margin-bottom: 120px;
+  position: relative;
+}
+.banner-info {
+  position: absolute;
+  top: 110px;
+  left: 340px;
+}
+.banner-title {
+  padding-left: 185px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  height: 40px;
+  width: 260px;
+}
+.banner-post {
+  text-align: center;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  height: 180px;
+  width: 630px;
+}
+
+/* main section start */
+.main-first-part {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 120px;
+}
+.main-first-part-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.main-first-part-post {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.main-first-part-categories {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+/* main part second start */
+.main-part-second {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 270px;
+  margin-bottom: 120px;
+  position: relative;
+}
+.main-part-second-text {
+  position: absolute;
+  top: 70px;
+  left: 126px;
+}
+.main-part-second-title {
+  color: #fff;
+  font-family: Merriweather;
+  text-align: left;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  width: 642px;
+  margin-bottom: 24px;
+}
+.main-part-second-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  width: 697px;
+}
+.main-part-second-button {
+    margin-top: 48px;
+    border: none;
+    background: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main-part-second-image {
+  position: absolute;
+  right: 0px;
+}
