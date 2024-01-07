@@ -74,6 +74,7 @@ body {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Vectorrr.png");
   background-repeat: no-repeat;
+  border-radius: 16px;
   width: 1320px;
   height: 600px;
   margin-top: 50px;
@@ -105,9 +106,9 @@ body {
   width: 697px;
 }
 .main-part-second-button {
-    margin-top: 48px;
-    border: none;
-    background: none;
+  margin-top: 48px;
+  border: none;
+  background: none;
   color: #fff;
   font-family: Inter;
   font-size: 20px;
@@ -115,5 +116,124 @@ body {
 }
 .main-part-second-image {
   position: absolute;
-  right: 0px;
+  top: 60px;
+  right: 135px;
+  height: 464px;
+  width: 320px;
+}
+
+/* main part third starts */
+.main-part-third {
+  width: 1320px;
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-left: 270px;
+  position: relative;
+  border-radius: 16px;
+  margin-bottom: 120px;
+}
+.main-part-third-box {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 380px;
+  width: 549px;
+  height: 168px;
+}
+.main-part-third-description {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.time-date-place {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.main-part-third-button {
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  width: 167px;
+  height: 56px;
+  margin-top: 48px;
+}
+
+/* main-part-four-starts */
+.main-part-fourth {
+  width: 1320px;
+  margin-left: 270px;
+  display: flex;
+  padding: 20px;
+}
+/* .main-part-fourth-subpart-one start */
+.main-part-fourth-subpart-one {
+  width: 440px;
+}
+.main-part-fourth-subpart-one-title {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.main-part-fourth-subpart-one-post {
+  color: #070211;
+  font-family: Merriweather;
+  margin-top: 16px;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: capitalize;
+}
+.main-part-fourth-subpart-one-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 22px;
+}
+/* .main-part-fourth-subpart-two starts */
+.main-part-fourth-subpart-two {
+  width: 440px;
+}
+.main-part-fourth-image {
+  border: 10px red solid;
+  border-radius: 364.844px;
+  padding: 15px;
+}
+/* .main-part-fourth-subpart-three starts */
+.main-part-fourth-subpart-three {
+  width: 440px;
+  margin-left: 50px;
+}
+.main-part-fourth-subpart-three-title {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.main-part-fourth-subpart-three-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+width: 276px;
+height: 90px;
+}
+.main-part-fourth-subpart-three-image{
+    margin-top: 20px;
 }
