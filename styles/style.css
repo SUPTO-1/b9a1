@@ -46,10 +46,13 @@ body {
 
 /* main section start */
 .main-first-part {
-  text-align: center;
+  /* text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 120px;
+  margin: 120px; */
+  text-align: center;
+  width: 1320px;
+  margin: 120px auto;
 }
 .main-first-part-title {
   color: #f00;
@@ -401,7 +404,7 @@ right: 420px;
 footer{
   margin: auto 0px;
   background-color: #070211;
-  width: 100%;
+  width: 1900px;
   height: 609px;
 }
 .footer-first{
