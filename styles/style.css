@@ -243,6 +243,7 @@ body {
 .main-part-fifth {
   width: 1320px;
   margin-left: 270px;
+  margin-bottom: 140px;
 }
 .main-part-fifth-text {
   text-align: center;
@@ -296,4 +297,39 @@ bottom: 233px;
   position: absolute;
   right: 280px;
   bottom: 280px;
+}
+
+/* mian part sixth starts  */
+.main-part-sixth{
+  width: 1320px;
+  margin-left: 270px;
+  margin-bottom: 140px;
+}
+.main-part-sixth-title{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.main-part-sixth-post{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.main-part-sixth-description{
+  width: 896px;
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+.main-part-sixth-image img{
+  margin: 10px 5px;
+  transition: 1s;
+}
+.main-part-sixth-image img:hover{
+  transform: scale(1.3);
+  z-index: 2;
 }
