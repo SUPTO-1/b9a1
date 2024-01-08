@@ -50,11 +50,22 @@ body {
   align-items: center;
   justify-content: center;
   margin: 120px; */
-  justify-content: center;
+  /* justify-content: center;
   align-items: center;
   text-align: center;
   width: 1320px;
-  margin: 120px auto;
+  margin: 120px auto; */
+  background: #FFF;
+  width: 1320px;
+  height: 1050px;
+  margin-bottom: 80px;
+  position: relative;
+  margin-top: -100px;
+}
+.main-first-part-text{
+  position: absolute;
+  text-align: center;
+  left: 550px;
 }
 .main-first-part-title {
   color: #f00;
