@@ -130,6 +130,9 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
+.main-part-second-button:hover{
+  background-color: #1D2B53;
+}
 .main-part-second-image {
   position: absolute;
   top: 60px;
@@ -185,7 +188,11 @@ body {
   height: 56px;
   margin-top: 48px;
 }
-
+.main-part-third-button:hover{
+  /* background-color: #1D2B53; */
+  background: #FFF;
+  color: #F00;
+}
 /* main-part-four-starts */
 .main-part-fourth {
   width: 1320px;
@@ -412,6 +419,10 @@ font-weight: 600;
 text-transform: capitalize;
 right: 420px;
 }
+.first-btn:hover{
+  background: #FFF;
+  color: #F00;
+}
 
 /* footer part starts */
 footer{
@@ -483,4 +494,7 @@ font-weight: 500;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
+}
+.last-last-half a:hover{
+  color: #F00;
 }
